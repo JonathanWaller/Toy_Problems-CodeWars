@@ -87,3 +87,14 @@ class SmallestIntegerFinder {
     return value1 / value2;
   }
 }
+
+// 7. Complete the square sum method so that it squares each number passed into it (from array) and then sums the results together.
+
+  Solution: 
+  function squareSum(numbers){
+    let count = 0;
+    for (let i=0; i<numbers.length; i++){
+      count += numbers[i]*numbers[i]
+    }
+    return count;
+  }
